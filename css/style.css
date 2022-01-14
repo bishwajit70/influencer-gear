@@ -12,7 +12,12 @@ a{
     text-decoration: none;
     color:#000;
 }
-
+main{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 /* header area css */
 .header-area{
     padding: 40px 0px;
@@ -105,12 +110,6 @@ a{
 }
 
 /* Popular collections area css */
-main{
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 .popular-collection-area{
     width: 1150px;
 }
@@ -152,4 +151,31 @@ main{
 }
 .fa-star, .fa-star-half-alt{
     color: #FFC014;
+}
+
+/* footer area css */
+.footer-area{
+    text-align: center;
+    background-color: #0A0826;
+    color: #fff;
+    padding: 50px;
+    margin-top: 100px;
+}
+.footer-area h3{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer-area p{
+    margin: 0px;
+    font-size: 14px;
+    line-height: 25px;
+}
+.social-area{
+    margin-top: 15px;
+}
+.social-area a{
+    padding: 0px 10px;
+    color: #fff;
 }
