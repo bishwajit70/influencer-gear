@@ -251,8 +251,8 @@ main{
     .popular-collections{
         grid-template-columns: repeat(2, 1fr);
     }
-    .shop-offer-area{
-        grid-template-columns: repeat(2, 1fr);
+    .release-area{
+        width: 700px;
     }
     .release-area{
         grid-template-columns: repeat(2, 1fr);
@@ -329,6 +329,7 @@ main{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+
     }
     .single-release{
         width: 45%;
