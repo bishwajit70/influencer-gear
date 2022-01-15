@@ -156,6 +156,17 @@ main{
 .fa-star, .fa-star-half-alt{
     color: #FFC014;
 }
+.shop-now-area{
+    width:1150px
+}
+.shop-offer-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.single-shop-area img{
+    width:100%;
+}
 
 /* footer area css */
 .footer-area{
@@ -227,6 +238,9 @@ main{
     .popular-collections{
         grid-template-columns: repeat(2, 1fr);
     }
+    .shop-offer-area{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* Mobile view  */
@@ -294,6 +308,11 @@ main{
     .see-more-button {
         width: 70%;
         margin-top: 20px;
+    }
+    .shop-offer-area{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .footer-area{
         margin-top: 20px;
