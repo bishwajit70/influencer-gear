@@ -128,6 +128,7 @@ main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
+    padding-top: 30px;
 }
 .single-collection{
     padding:15px;
@@ -156,16 +157,28 @@ main{
 .fa-star, .fa-star-half-alt{
     color: #FFC014;
 }
-.shop-now-area{
-    width:1150px
+.new-release{
+    margin-top: 100px;
 }
-.shop-offer-area{
+.release-area{
+    width:1150px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
+    padding-top: 30px;
 }
-.single-shop-area img{
-    width:100%;
+.single-release{
+    padding:15px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 40px #ddd;
+    border-radius: 5px;
+}
+.release-image{
+    display: flex;
+    justify-content: center;
+}
+.release-image img{
+    width:85%;
 }
 
 /* footer area css */
@@ -241,6 +254,9 @@ main{
     .shop-offer-area{
         grid-template-columns: repeat(2, 1fr);
     }
+    .release-area{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* Mobile view  */
@@ -309,10 +325,13 @@ main{
         width: 70%;
         margin-top: 20px;
     }
-    .shop-offer-area{
+    .release-area{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .single-release{
+        width: 45%;
     }
     .footer-area{
         margin-top: 20px;
