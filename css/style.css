@@ -230,16 +230,13 @@ main{
 }
 
 /* Mobile view  */
-@media (max-width: 426px) {
+@media (max-width: 425px) {
     .header-area{
         display: flex;
     }
     .header-content{
         display: flex;
         justify-content: center;
-    }
-    .logo-area{
-
     }
     .logo-area a{
         text-align: center;
@@ -250,7 +247,6 @@ main{
     .banner-area{
         margin-top: 0px;
         padding-top: 0px;
-        width: 100%;
     }
     .banner-content{
         display: flex;
