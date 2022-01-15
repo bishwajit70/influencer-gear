@@ -87,9 +87,7 @@ main{
     margin-left:10px;
 }
 .banner-image > img{
-    transition: transform 1.5s ease-in ;
-    
-    
+    transition: transform 1.5s ease-in;
 }
 .banner-area:hover .banner-image img{
     transform: rotate(360deg) scale(0.5);
@@ -186,27 +184,65 @@ main{
     color: #fff;
 }
 
-@media (max-width: 1024px) {
+/* Tablet View */
+
+@media (max-width: 768px) {
     .header-content{
-        width: 800px;
+        width: 700px;
+    }
+    .logo-area a{
+        font-size: 20px;
+    }
+    .menu-area a{
+        font-size: 13px;
+        padding:0 10px;
+    }
+    .banner-area{
+        margin-top: 0px;
     }
     .banner-content{
-        width: 800px;
+        width: 700px;
+    }
+    .banner-text{
+        width:50%;
+    }
+    .banner-text h1{
+        font-size: 30px;
+    }
+    .banner-image{
+        width: 50%;
+    }
+    .banner-image > img{
+        width: 100%;
     }
     .brand-logo{
-        width: 800px;
+        width: 700px;
+    }
+    .brand-logo img{
+        width:12%;
     }
     .popular-collection-area{
-        width: 800px;
+        width: 700px;
     }
     .popular-collections{
         grid-template-columns: repeat(2, 1fr);
     }
 }
-@media (max-width: 424px) {
+
+/* Mobile view  */
+@media (max-width: 426px) {
+    .header-area{
+        display: flex;
+    }
     .header-content{
         display: flex;
         justify-content: center;
+    }
+    .logo-area{
+
+    }
+    .logo-area a{
+        text-align: center;
     }
     .menu-area{
         display: none;
@@ -266,6 +302,5 @@ main{
     .footer-area{
         margin-top: 20px;
     }
+
 }
-
-
