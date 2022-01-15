@@ -201,11 +201,10 @@ main{
         grid-template-columns: repeat(2, 1fr);
     }
 }
-@media (max-width: 426px) {
+@media (max-width: 425px) {
     .header-area{
         display: flex;
         justify-content: center;
-        align-items: center;
         text-align: center;
     }
     .header-content{
@@ -215,5 +214,30 @@ main{
     .menu-area{
         display: none;
     }
+    .banner-area{
+        margin-top: 0px;
+        padding-top: 0px;
+        width: 100%;
+    }
+    .banner-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner-text{
+        order: 2;
+        text-align: center;
+    }
+    .banner-text h1{
+        font-size: 36px;
+
+    }
+    .banner-image{
+        order: 1;
+        width: 75%;
+    }
+    .banner-image img{
+        width: 100%;
+    }
 }
+
 
