@@ -201,12 +201,7 @@ main{
         grid-template-columns: repeat(2, 1fr);
     }
 }
-@media (max-width: 425px) {
-    .header-area{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
+@media (min-width: 300px) and (max-width: 425px) {
     .header-content{
         display: flex;
         justify-content: center;
@@ -229,7 +224,9 @@ main{
     }
     .banner-text h1{
         font-size: 36px;
-
+    }
+    .banner-text p{
+        padding: 5px 10px;
     }
     .banner-image{
         order: 1;
@@ -237,6 +234,35 @@ main{
     }
     .banner-image img{
         width: 100%;
+    }
+    .brand-logos-area{
+        margin-bottom: 40px;
+    }
+    .brand-logo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .brand-logo img{
+        width: 20%;
+        padding: 10px;  
+    }
+    .popular-collections{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .single-collection{
+        width: 45%;
+        margin-bottom: 0px;
+    }
+    .see-more-button {
+        width: 70%;
+        margin-top: 20px;
+    }
+    .footer-area{
+        margin-top: 20px;
     }
 }
 
