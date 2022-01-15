@@ -23,12 +23,6 @@ main{
     padding: 40px 0px;
     display: flex;
     justify-content: center;
-    /* position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    background-color: #fff; */
 }
 .header-content{
     display: flex;
@@ -91,6 +85,14 @@ main{
 }
 .see-more-button i{
     margin-left:10px;
+}
+.banner-image > img{
+    transition: transform 1.5s ease-in ;
+    
+    
+}
+.banner-area:hover .banner-image img{
+    transform: rotate(360deg) scale(0.5);
 }
 .banner-image{
     background-image: url(../images/Circle\ design.svg);
