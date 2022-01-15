@@ -201,7 +201,7 @@ main{
         grid-template-columns: repeat(2, 1fr);
     }
 }
-@media (min-width: 300px) and (max-width: 425px) {
+@media (max-width: 424px) {
     .header-content{
         display: flex;
         justify-content: center;
